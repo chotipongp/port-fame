@@ -25,7 +25,7 @@ class Home extends React.Component {
     return (
       <BaseLayout>
         <h1>{title}</h1>
-        <button onClick={this.updateTitle}>Change Title</button>
+        <button onClick={this.updateTitle}>Test</button>
       </BaseLayout>
     );
   }
