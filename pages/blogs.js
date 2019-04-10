@@ -1,13 +1,14 @@
-import React from "react";
-import BaseLayout from "../components/layouts/BaseLayout";
+import React from 'react';
+import BaseLayout from '../components/layouts/BaseLayout';
 
 class Blogs extends React.Component {
+
   render() {
     return (
       <BaseLayout>
-        <h1>Blogs</h1>
+        <h1> I am Blogs Page </h1>
       </BaseLayout>
-    );
+    )
   }
 }
 
