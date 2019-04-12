@@ -1,20 +1,25 @@
-import React from 'react';
-import Typed from 'react-typed';
+import React from "react";
+import Typed from "react-typed";
 
-import BaseLayout from '../components/layouts/BaseLayout';
+import BaseLayout from "../components/layouts/BaseLayout";
 
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Button, Container, Row, Col } from "reactstrap";
 
 class Index extends React.Component {
-
   constructor(props) {
     super(props);
 
-    this.roles = ['Developer', 'Tech Lover', 'Team Player', 'Course Creater', 'React.js', 'Angular'];
+    this.roles = [
+      "Developer",
+      "Tech Lover",
+      "Team Player",
+      "Course Creater",
+      "React.js",
+      "Angular"
+    ];
   }
 
   render() {
-
     return (
       <BaseLayout className="cover">
         <div className="main-section">
@@ -33,7 +38,10 @@ class Index extends React.Component {
                           Have a look at my portfolio and job history.
                         </div>
                       </div>
-                      <img className="image" src="/static/images/section-1.png"/>
+                      <img
+                        className="image"
+                        src="/static/images/section-1.png"
+                      />
                       <div className="shadow-custom">
                         <div className="shadow-inner"> </div>
                       </div>
@@ -44,8 +52,9 @@ class Index extends React.Component {
               <Col md="6" className="hero-welcome-wrapper">
                 <div className="hero-welcome-text">
                   <h1>
-                    Welcome to the portfolio website of Filip Jerga.
-                    Get informed, collaborate and discover projects I was working on through the years!
+                    Welcome to the portfolio website of Chotipong
+                    Punthawornwong. Get informed, collaborate and discover
+                    projects I was working on through the years!
                   </h1>
                 </div>
                 <Typed
@@ -60,22 +69,16 @@ class Index extends React.Component {
                   cursorChar="|"
                 />
 
-
                 <div className="hero-welcome-bio">
-                  <h1>
-                    Let's take a look on my work.
-                  </h1>
+                  <h1>Let's take a look on my work.</h1>
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
       </BaseLayout>
-    )
+    );
   }
 }
 
-
-
 export default Index;
-
